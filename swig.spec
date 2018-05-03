@@ -7,7 +7,7 @@
 Summary:	Simplified Wrapper and Interface Generator (SWIG)
 Name:		swig
 Version:	3.0.6
-Release:	1
+Release:	2
 Epoch:		1
 License:	BSD
 Group:		Development/Other
@@ -40,7 +40,7 @@ BuildRequires:	pkgconfig(guile-2.0)
 %endif
 BuildRequires:	pkgconfig(libpcre)
 BuildRequires:	pkgconfig(lua)
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python2)
 Obsoletes:	swig-devel < 2.0.7
 
 %description
