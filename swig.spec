@@ -82,7 +82,6 @@ documentation.
 %build
 ./autogen.sh
 %configure 
-      --with-python3=%{_bindir}/python
       --with-python2=%{_bindir}/python2
 %make
 
